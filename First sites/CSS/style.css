@@ -1,22 +1,55 @@
-<!--
-body {
-    font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
-    font-size: 11pt; /* Размер основного шрифта в пунктах  */
-    background-color: #f0f0f0; /* Цвет фона веб-страницы */
-    color: #333; /* Цвет основного текста */ 
-  }
-  -->
-  h1 {
-    color: #a52a2a; /* Цвет заголовка */
-    font-family: Georgia, Times, serif; /* Семейство шрифтов */
-    font-weight: normal; /* Нормальное начертание текста  */
-  }
-  p {
-    text-align: justify; /* Выравнивание по ширине */
-    margin-left: 60px; /* Отступ слева в пикселах */
-    margin-right: 10px; /* Отступ справа в пикселах */
-    border-left: 1px solid #999; /* Параметры линии слева */
-    border-bottom: 1px solid #999; /* Параметры линии снизу */
-    padding-left: 10px; /* Отступ от линии слева до текста  */
-    padding-bottom: 10px; /* Отступ от линии снизу до текста  */
-  }
+
+html {
+    font-family: Roboto,sans-serif;
+}
+
+* {
+  color:black;
+}
+
+h1{
+  color:blue;
+  margin-bottom: 0.25em;
+}
+
+h2{
+  color: black;
+  font-size:1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+h3{
+  color: blue;
+}
+
+a{
+  color: blue;
+}
+
+.contacts{
+  margin-bottom:2em ;
+}
+
+.contact{
+  display: flex;
+  
+  /*&__type{
+  min-width: 90px;
+  */
+}
+
+.experience{
+display: flex;
+margin-bottom: 2em;
+/*
+&__date{
+  margin-botton: 1em;
+  min-width: 185px;
+}
+&__name{
+  font-weight: bold;
+}
+*/
+}
+
