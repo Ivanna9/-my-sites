@@ -1,55 +1,18 @@
 
-html {
-    font-family: Roboto,sans-serif;
+body{
+    background-color: azure;
+    color: black;
+
+    font-size: 16px ;
+    font-weight: 600;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.avatar{
+width: 400;
+border-radius: 29px;
+box-shadow: 6px 5px 18px rgb(203, 60, 49);
 }
 
-* {
-  color:black;
+.info p{
+  color: aqua;
 }
-
-h1{
-  color:blue;
-  margin-bottom: 0.25em;
-}
-
-h2{
-  color: black;
-  font-size:1em;
-  margin-top: 0;
-  margin-bottom: 1em;
-}
-
-h3{
-  color: blue;
-}
-
-a{
-  color: blue;
-}
-
-.contacts{
-  margin-bottom:2em ;
-}
-
-.contact{
-  display: flex;
-  
-  /*&__type{
-  min-width: 90px;
-  */
-}
-
-.experience{
-display: flex;
-margin-bottom: 2em;
-/*
-&__date{
-  margin-botton: 1em;
-  min-width: 185px;
-}
-&__name{
-  font-weight: bold;
-}
-*/
-}
-
