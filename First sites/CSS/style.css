@@ -14,5 +14,13 @@ box-shadow: 6px 5px 18px rgb(203, 60, 49);
 }
 
 .info p{
-  color: aqua;
+  color: rgb(79, 152, 152);
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: none;
+  text-transform: uppercase;
+  letter-spacing: 0ex;
 }
+
