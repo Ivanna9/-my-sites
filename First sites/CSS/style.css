@@ -33,7 +33,7 @@ color: aqua;
   .info{
     margin-bottom: 20px;
   }
-  
+
  .bg-yellow{
   background: rgb(206, 223, 171);
  }
@@ -52,7 +52,6 @@ color: aqua;
 
  .card{
   padding: 19px 30px;
- /* background: blue;*/
   margin-bottom: 25px;
   border-radius: 30px;
  }
