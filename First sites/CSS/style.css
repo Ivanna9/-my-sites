@@ -25,14 +25,22 @@ color: aqua;
  }
 
  .avatar{
-  width: 200px;
-  border-radius: 32px;
-  box-shadow: 6px 6px 16px rgb(148, 224, 162);
+  width: 250px;
+  border-radius: 42px;
+  box-shadow: 16px 16px 56px rgb(4, 226, 45);
   }
 
   .info{
     margin-bottom: 20px;
   }
+
+  .bg-orange{
+    background: rgba(218, 196, 139, 0.896);
+   }
+
+   .bg-red{
+    background: rgba(54, 156, 67, 0.39);
+   }
 
  .bg-yellow{
   background: rgb(206, 223, 171);
@@ -70,6 +78,23 @@ color: aqua;
   border-bottom: 1px solid greenyellow;
  }
 
+ .table {
+  width: 100%;
+ }
+
+ .table td{
+  padding-bottom: 10px;
+
+ }
+
+ .table td:nth-child(2),
+ .table td:nth-child(3){
+color: rgba(139, 53, 0, 0.53);
+ }
+
+ .table:nth-child(even){
+  background: rgba(0, 77, 128, 0.563);
+ }
  /*
  *{
   padding: 0px;
