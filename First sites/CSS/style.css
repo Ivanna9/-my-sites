@@ -55,3 +55,26 @@ color: aqua;
   margin-bottom: 25px;
   border-radius: 30px;
  }
+
+ .card h2{
+  margin-bottom: 15px;
+ }
+
+ .list{
+  padding: 0 20px;
+ }
+
+ .list li{
+  color: rgb(153, 38, 174);
+  margin-bottom: 10px;
+  border-bottom: 1px solid greenyellow;
+ }
+
+ /*
+ *{
+  padding: 0px;
+  margin: 0px;
+ }
+ \*
+
+
