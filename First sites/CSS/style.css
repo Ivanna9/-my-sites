@@ -1,12 +1,19 @@
 
 body{
-    background-color: azure;
+    background-color: rgb(255, 255, 255);
     color: black;
 
     font-size: 16px ;
     font-weight: 600;
     font-family:Georgia, 'Times New Roman', Times, serif
  }
+ /*
+ *{
+  padding: 0px;
+  margin: 0px;
+ }
+ */
+
  a{
   color: #000;
   text-decoration: none;
@@ -28,10 +35,11 @@ color: aqua;
   width: 250px;
   border-radius: 42px;
   box-shadow: 16px 16px 56px rgb(4, 226, 45);
+  
   }
 
   .info{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .bg-orange{
@@ -90,16 +98,32 @@ color: aqua;
  .table td:nth-child(2),
  .table td:nth-child(3){
 color: rgba(139, 53, 0, 0.53);
+text-align: center;
  }
 
  .table:nth-child(even){
-  background: rgba(0, 77, 128, 0.563);
+  text-align: center;
+  background: rgba(44, 157, 232, 0.249);
  }
- /*
- *{
-  padding: 0px;
-  margin: 0px;
- }
- \*
+ 
+.contact h2{
+text-align: center;
+}
 
+.form-group label{
+display: block;
+font-size:medium;
+color: rgba(0, 186, 3, 0.87);
+}
 
+.form-group input,
+.form-group {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 20px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
