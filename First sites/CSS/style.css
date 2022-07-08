@@ -35,10 +35,23 @@ color: aqua;
   width: 250px;
   border-radius: 42px;
   box-shadow: 16px 16px 56px rgb(4, 226, 45);
-  
   }
 
+  .container{
+    max-width: 760px;
+    margin: auto;
+    padding-top: 20px;
+  }
   .info{
+    display: flex;
+    margin-bottom: 20px;
+    
+  }
+  .info-text {
+    margin-left: 40px;
+  }
+
+  .info-text h5{
     margin-bottom: 10px;
   }
 
@@ -126,4 +139,13 @@ color: rgba(0, 186, 3, 0.87);
   padding: 20px 0 10px;
   outline: none;
   font-family: inherit;
+}
+
+.row{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row> .form-group:last-child{
+  margin-right: 0;
 }
