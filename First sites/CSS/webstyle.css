@@ -45,7 +45,7 @@ h1{
 font-family: Pompadur, 'Comic Sans MS', cursive;
 }
 
-p::first-letter {
+h1::first-letter {
     font-size: 3em; /* Размер буквицы */
     padding: 3px; /* Поля вокруг первой буквы */
     margin-right: 5px; /* Отступ справа */
@@ -53,5 +53,7 @@ p::first-letter {
     float: left; /* Обтекание по правому краю */
     line-height: 0.33em; /* Положение относительно текста */
    }
-   p { clear: left; }
+   eh1 { clear: left; }
+
+
    
