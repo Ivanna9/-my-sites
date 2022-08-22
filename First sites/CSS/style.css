@@ -20,7 +20,6 @@ body{
  a:hover{
   text-decoration:line-through  ;
  }
-
  a:active{
 color: aqua;
  }
