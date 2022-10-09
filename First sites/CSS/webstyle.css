@@ -445,3 +445,20 @@ body {
   padding-bottom: 22px;
   text-align: center;
 }
+
+/*
+  ========================================
+  Место проведения
+  ========================================
+*/
+
+.venue-theatre {
+  margin-bottom: 66px;
+}
+.venue-hotel {
+  margin-bottom: 22px;
+}
+
+.venue-map {
+  height: 264px;
+}
