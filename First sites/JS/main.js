@@ -43,7 +43,6 @@ for (var i in  cell){
 
  }
 }
-
 function checkWin(data) {
 for(var i in winIndex){
     var win=true;
