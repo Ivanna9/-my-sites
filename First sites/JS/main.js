@@ -30,8 +30,6 @@ function cellClick() {
         alert("ячейка занята сволоч ти така");
         return;
     }
-    
-
 
 for (var i in  cell){
     if (cell[i].innerHTML== player){
