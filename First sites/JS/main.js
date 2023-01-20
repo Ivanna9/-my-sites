@@ -31,6 +31,8 @@ function cellClick() {
         return;
     }
 
+
+    
     
 for (var i in  cell){
     if (cell[i].innerHTML== player){
