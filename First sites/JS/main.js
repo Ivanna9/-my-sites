@@ -31,7 +31,6 @@ function cellClick() {
         return;
     }
 
-
     
     
 for (var i in  cell){
