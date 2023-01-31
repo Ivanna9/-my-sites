@@ -32,6 +32,8 @@ function cellClick() {
     }
 
     
+
+    
 for (var i in  cell){
     if (cell[i].innerHTML== player){
         data.push(parseInt(cell[i].getAttribute('pos')));
