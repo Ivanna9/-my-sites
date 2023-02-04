@@ -32,7 +32,7 @@ function cellClick() {
     }
 
 
-    
+
 
 
 for (var i in  cell){
