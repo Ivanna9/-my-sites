@@ -56,5 +56,4 @@ for(var i in winIndex){
         }
         if(win) return true;
     }
-
 }
