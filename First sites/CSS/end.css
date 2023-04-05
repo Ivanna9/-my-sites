@@ -24,7 +24,6 @@
     vertical-align: middle;
     transition: background .1s;
 }
-
 .cell:hover {
     background-color: #f1f1f1;
 }
